@@ -3,7 +3,6 @@
 <br>
 personal notes<br>
 <h2>01 javascript drumset<br></h2>
-—<br>
 todo:<br> 
 Add media queries,<br>
 make display functionality smooth,<br>
