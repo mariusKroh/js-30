@@ -9,7 +9,7 @@ body {
   font-family: monospace;
 }
 
-.display, #container {
+#container {
   width: auto;
   margin: auto;
   position: absolute;
@@ -18,7 +18,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.display {
+#display{
+    font-size:30px;
+    color: var(--base-color);
+    transition: all 0.07s;
 }
 
 .keys {
