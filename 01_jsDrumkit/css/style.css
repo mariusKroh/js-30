@@ -9,13 +9,16 @@ body {
   font-family: monospace;
 }
 
-#container {
+.display, #container {
   width: auto;
   margin: auto;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.display {
 }
 
 .keys {
@@ -30,15 +33,14 @@ body {
   justify-self: center;
   margin: 20px;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   transition: all 0.07s;
   box-shadow: 0 0 3px var(--base-color);
   color: var(--base-color);
   cursor:pointer;
 }
 
-kbd,
-span {
+kbd {
   margin: 0 auto;
   align-self: center;
 }
