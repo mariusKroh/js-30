@@ -2,7 +2,7 @@
 <h2>my projects done for wes bos js30 course</h2>
 <br>
 personal notes<br>
-<h2>01 javascript drumset<br></h2>
+<h2>01_jsDrumset<br></h2>
 todo:<br> 
 Add media queries,<br>
 make display functionality smooth,<br>
