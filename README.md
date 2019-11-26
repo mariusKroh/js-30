@@ -1,8 +1,7 @@
 # js30
-<h2>my projects done for wes bos js30 course</h2>
-<br>
+my projects done for wes bos js30 course<br>
 personal notes<br>
-<h2>01_jsDrumset<br></h2>
+<h2>01_jsDrumkit<br></h2>
 todo:<br> 
 Add media queries,<br>
 make display functionality smooth,<br>
