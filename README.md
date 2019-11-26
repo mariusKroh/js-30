@@ -1,7 +1,10 @@
 # js30
 my projects done for wes bos js30 course
-
-personal notes
-01 javascript drumset
-—
-todo: Add media queries, make display functionality smooth, refactor functions
+<br>
+personal notes<br>
+01 javascript drumset<br>
+—<br>
+todo:<br> 
+Add media queries,<br>
+make display functionality smooth,<br>
+refactor functions
