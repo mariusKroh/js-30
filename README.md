@@ -6,3 +6,7 @@ todo:<br>
 Add media queries,<br>
 make display functionality smooth,<br>
 refactor functions
+<h2>02_jsClock<br></h2>
+todo:<br> 
+Add background color based on hand position (a classic)<br>
+Remove weird transition after 60s is full
