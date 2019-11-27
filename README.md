@@ -10,7 +10,7 @@ refactor functions
 todo:<br> 
 Add background color based on hand position (a classic)<br>
 Remove weird transition reset after 60s is full
-<h2>03_cssVariables</h2><br>
+<h2>03_cssVariables</h2>
 todo:<br>
 develop a blur image gallery<br>
 develop a css style helper
