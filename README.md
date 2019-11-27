@@ -1,6 +1,5 @@
 # js30
-My projects done for Wes Bos js30 course. I try implementing advanced functionality for each project to enhance my own learning process.
-personal notes<
+My projects done for Wes Bos js30 course. I try implementing advanced functionality for each project to enhance my own learning process. This document contains general information, thoughts, private notes and ideas.
 ## 01_jsDrumkit
 ##### todo:
 - [ ] Add media queries,
