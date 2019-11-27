@@ -16,6 +16,6 @@ possible project:<br>
 CSS world clock. Add up to 8 clocks with different time zones to page, all shiny & nice with CSS variables changing color according to time.
 <h2>03_cssVariables</h2>
 possible project:<br>
-*see before<br>
-*develop a blur image gallery<br>
-*develop a css style helper<br>
+* see before<br>
+* develop a blur image gallery<br>
+* develop a css style helper<br>
