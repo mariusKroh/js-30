@@ -1,6 +1,7 @@
 const secondHand = document.querySelector(".second-hand");
 const minHand = document.querySelector(".min-hand");
 const hourHand = document.querySelector(".hour-hand");
+const container = document.querySelector(".clock-container")
 
 function setDate() {
   const now = new Date();
@@ -13,6 +14,16 @@ function setDate() {
   const hours = now.getHours();
   const hoursDegrees = (hours / 12) * 360 + 90;
   hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
+  // set Background
+  setBackground(hours, minutes, seconds);
+
+}
+
+function setBackground(h, s, l) {
+  const hue = h * 6;
+  const saturation = s * (100 / 60);
+  const light = l * (100 / 60);
+  container.style = `background-color:hsl(${hue},${saturation}%,${light}%)`
 }
 
 setInterval(setDate, 1000);
