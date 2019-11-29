@@ -18,3 +18,7 @@ My projects done for Wes Bos js30 course. I try implementing advanced functional
 * see before
 * develop a blur image gallery
 * develop a css style helper
+## 04_arrayCardio1
+- practice and remember
+## 05_flexPanelGallery
+- nothing yet
