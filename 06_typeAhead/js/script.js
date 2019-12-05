@@ -1,0 +1,1 @@
+const endpoint = "https://gist.githubusercontent.com/mariusKroh/74c3c9a932072c487add134fb4d7ff8e/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json"
