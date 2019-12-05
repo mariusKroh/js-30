@@ -22,3 +22,6 @@ My projects done for Wes Bos js30 course. I try implementing advanced functional
 - practice and remember
 ## 05_flexPanelGallery
 - nothing yet
+## 06_typeAhead
+##### possible project ideas:
+- more complicated filtering based on different JSON Data (for Example sort by closest to my location etc.)
