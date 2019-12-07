@@ -35,7 +35,9 @@ My projects done for Wes Bos js30 course. I try implementing advanced functional
 ## 09_devTools
 - nothing to say
 ## 10_holdShiftToCheck
+##### todo:
 - [ ] Hold Shift to uncheck multiple checkboxes
-
+## 12_keySequenceDetector
+- nothing yet
 
 
