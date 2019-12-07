@@ -33,4 +33,9 @@ My projects done for Wes Bos js30 course. I try implementing advanced functional
 - working with blend modes
 - generative drawing (wolfdam...)
 ## 09_devTools
-- –
+- nothing to say
+## 10_holdShiftToCheck
+- [ ] Hold Shift to uncheck multiple checkboxes
+
+
+
