@@ -25,3 +25,10 @@ My projects done for Wes Bos js30 course. I try implementing advanced functional
 ## 06_typeAhead
 ##### possible project ideas:
 - more complicated filtering based on different JSON Data (for Example sort by closest to my location etc.)
+## 07_arrayCardio2
+- practice and remember
+## 08_htmlCanvas
+##### possible project ideas:
+- recreate paint app
+- working with blend modes
+- generative drawing (wolfdam...)
