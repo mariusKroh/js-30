@@ -1,4 +1,5 @@
   const addItems = document.querySelector('.add-items');
+  const clear = document.querySelector("#clear");
   const itemsList = document.querySelector('.plates');
   const items = JSON.parse(localStorage.getItem("items")) || [];
 
@@ -27,6 +28,11 @@
 
   }
 
+  function clearList() {
+      localStorage.clear();
+      populateList([], itemsList);
+  }
+
   function toggleDone(event) {
       if (!event.target.matches("input")) return; // skip this unless it is an input 
       const el = event.target;
@@ -36,7 +42,10 @@
       populateList(items, itemsList);
   }
 
+
+
   addItems.addEventListener("submit", addItem);
+  clear.addEventListener("click", clearList);
   itemsList.addEventListener("click", toggleDone);
 
   populateList(items, itemsList);
