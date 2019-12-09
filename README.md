@@ -43,5 +43,13 @@ My projects done for Wes Bos js30 course. I try implementing advanced functional
 - nothing yet
 ## 14_referenceVsCopy
 - practice and remember
+## 15_localStorage
+Everytime there is a change it gets mirrored to local storage.
+Event delegation: Listen for a click on something "higher" + run function, inside the function we look if the target clicked is the item we want.
+##### possible project ideas:
+- implement on my todoList app
+##### todo:
+- [ ] Add buttons for toggle all & clear all.
+
 
 
