@@ -39,5 +39,9 @@ My projects done for Wes Bos js30 course. I try implementing advanced functional
 - [ ] Hold Shift to uncheck multiple checkboxes
 ## 12_keySequenceDetector
 - nothing yet
+## 13_slideInOnScroll
+- nothing yet
+## 14_referenceVsCopy
+- practice and remember
 
 
