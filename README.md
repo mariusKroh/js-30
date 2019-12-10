@@ -49,7 +49,7 @@ Event delegation: Listen for a click on something "higher" + run function, insid
 ##### possible project ideas:
 - implement on my todoList app
 ##### todo:
-- [ ] Add buttons for toggle all & clear all.
-
+- [x] Add buttons for toggle all & clear all.
+- [ ] Fix functionality.
 
 
