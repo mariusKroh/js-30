@@ -50,6 +50,6 @@ Event delegation: Listen for a click on something "higher" + run function, insid
 - implement on my todoList app
 ##### todo:
 - [x] Add buttons for toggle all & clear all.
-- [ ] Fix functionality.
+- [ ] Remove unnecessary iterations, only update values that actually change.
 
 
