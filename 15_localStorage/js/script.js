@@ -21,32 +21,31 @@
 
   function populateList(plates = [], platesList) {
       platesList.innerHTML = plates.map((plate, i) => {
-          return `
-          <li>
-            <input type="checkbox" data-index=${i} id="item${i}" ${plate.done ? 'checked' : ''} />
-            <label for="item${i}">${plate.text}</label>
+          return `<li>
+          <input type="checkbox" data-index=${i} id="item${i}" ${plate.done ? 'checked' : ''} />
+          <label for="item${i}">${plate.text}</label>
           </li>`
       }).join("");
 
   }
 
   function checkAllItems() {
-      items.forEach(item => item.done = "true");
+      items.forEach(item => item.done = true);
       populateList(items, itemsList);
       localStorage.setItem("items", JSON.stringify(items));
   }
 
-  /*   function uncheckAllItems() {
-        items.forEach(item => item.done = "false");
-        populateList(items, itemsList);
-        localStorage.setItem("items", JSON.stringify(items));
-    } */
+  function uncheckAllItems() {
+      items.forEach(item => item.done = false);
+      populateList(items, itemsList);
+      localStorage.setItem("items", JSON.stringify(items));
+  }
 
-  /*   function clearList() {
-        localStorage.clear();
-        items = [];
-        populateList([], itemsList);
-    } */
+  function clearList() {
+      localStorage.clear();
+      items.length = 0;
+      populateList(items, itemsList);
+  }
 
   function toggleDone(event) {
       if (!event.target.matches("input")) return; // skip this unless it is an input 
@@ -61,8 +60,8 @@
 
   addItems.addEventListener("submit", addItem);
   checkAll.addEventListener("click", checkAllItems);
-  //uncheckAll.addEventListener("click", uncheckAllItems);
-  //clear.addEventListener("click", clearList);
+  uncheckAll.addEventListener("click", uncheckAllItems);
+  clear.addEventListener("click", clearList);
   itemsList.addEventListener("click", toggleDone);
 
   populateList(items, itemsList);
