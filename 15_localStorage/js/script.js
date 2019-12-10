@@ -3,7 +3,7 @@
   const uncheckAll = document.querySelector("#uncheckAll");
   const clear = document.querySelector("#clear");
   const itemsList = document.querySelector('.plates');
-  let items = JSON.parse(localStorage.getItem("items")) || [];
+  const items = JSON.parse(localStorage.getItem("items")) || [];
 
   function addItem(event) {
       event.preventDefault();
@@ -36,17 +36,17 @@
       localStorage.setItem("items", JSON.stringify(items));
   }
 
-  function uncheckAllItems() {
-      items.forEach(item => item.done = "false");
-      populateList(items, itemsList);
-      localStorage.setItem("items", JSON.stringify(items));
-  }
+  /*   function uncheckAllItems() {
+        items.forEach(item => item.done = "false");
+        populateList(items, itemsList);
+        localStorage.setItem("items", JSON.stringify(items));
+    } */
 
-  function clearList() {
-      localStorage.clear();
-      items = [];
-      populateList([], itemsList);
-  }
+  /*   function clearList() {
+        localStorage.clear();
+        items = [];
+        populateList([], itemsList);
+    } */
 
   function toggleDone(event) {
       if (!event.target.matches("input")) return; // skip this unless it is an input 
@@ -61,8 +61,8 @@
 
   addItems.addEventListener("submit", addItem);
   checkAll.addEventListener("click", checkAllItems);
-  uncheckAll.addEventListener("click", uncheckAllItems);
-  clear.addEventListener("click", clearList);
+  //uncheckAll.addEventListener("click", uncheckAllItems);
+  //clear.addEventListener("click", clearList);
   itemsList.addEventListener("click", toggleDone);
 
   populateList(items, itemsList);
