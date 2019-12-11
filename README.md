@@ -51,5 +51,8 @@ Event delegation: Listen for a click on something "higher" + run function, insid
 ##### todo:
 - [x] Add buttons for toggle all & clear all.
 - [ ] Remove unnecessary iterations, only update values that actually change.
-
+## 16_mouseMoveShadow
+- nothing yet
+## 17_sortWithoutArticles
+Function after function…
 
