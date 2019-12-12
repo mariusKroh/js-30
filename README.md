@@ -55,4 +55,6 @@ Event delegation: Listen for a click on something "higher" + run function, insid
 - nothing yet
 ## 17_sortWithoutArticles
 Function after function…
+## 18_addingWithReduce
+- nothing yet
 
