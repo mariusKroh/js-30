@@ -57,4 +57,6 @@ Event delegation: Listen for a click on something "higher" + run function, insid
 Function after function…
 ## 18_addingWithReduce
 - nothing yet
+## 21_geolocation
+- enable testing with safari/xCode
 
