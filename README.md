@@ -37,6 +37,8 @@ My projects done for Wes Bos js30 course. I try implementing advanced functional
 ## 10_holdShiftToCheck
 ##### todo:
 - [ ] Hold Shift to uncheck multiple checkboxes
+## 11_htmlVideoPlayer
+- [ ] Make fullscreen button + functionality
 ## 12_keySequenceDetector
 - nothing yet
 ## 13_slideInOnScroll
