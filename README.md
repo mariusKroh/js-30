@@ -113,6 +113,8 @@ Function after function…
 
 ## 19_webcamFun
 
+##### todo:
+
 - [ ] Add UI for color filter functions.
 
 ## 21_geolocation
@@ -134,8 +136,21 @@ Function after function…
 ## 26_stripeFollowAlongNav
 
 - I really like this one!!!
+
+##### todo:
+
 - [ ] Add subtle folding effect ( see in video )
 
 ## 27_clickAndDrag
 
 - nothing yet
+
+## 28_videoSpeedController
+
+##### todo:
+
+- [ ] Add change playback speed on click + drag
+
+##### possible project ideas:
+
+- A youtube DJ app to beatmatch different videos?
