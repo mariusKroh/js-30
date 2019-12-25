@@ -125,6 +125,10 @@ Function after function…
 
 - see 26
 
+## 23_speechSynthesis
+
+- nothing yet
+
 ## 24_stickyNav
 
 - nothing yet
