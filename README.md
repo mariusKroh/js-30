@@ -165,3 +165,11 @@ Function after function…
 ##### possible project ideas:
 
 - Make this a pomodoro clock
+
+## 30_whackAMole
+
+##### todo:
+
+- [ ] Fix: Sometimes user can double click and score twice
+- [ ] Add scoreboard with local storage
+- [ ] Add Levels
