@@ -154,3 +154,14 @@ Function after function…
 ##### possible project ideas:
 
 - A youtube DJ app to beatmatch different videos?
+
+## 29_countdownTimer
+
+##### todo:
+
+- [ ] Add hours
+- [ ] Add date selection (time until custom date)
+
+##### possible project ideas:
+
+- Make this a pomodoro clock
