@@ -16,14 +16,7 @@ My projects done for Wes Bos js30 course. I try implementing advanced functional
 
 ## 02_jsClock
 
-##### todo:
-
-- [ ] Add background color based on hand position (a classic)
-- [ ] Remove weird transition reset after 60s is full
-
-##### possible project ideas:
-
-- CSS world clock. Add up to 8 clocks with different time zones to page, all shiny & nice with CSS variables changing color according to time.
+(Evolved into world-time app)[https://github.com/mariusKroh/world-time]
 
 ## 03_cssVariables
 
